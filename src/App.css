@@ -7,14 +7,12 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+  background-color: rgb(243, 243, 243);
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: rgb(0, 102, 255);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +33,123 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1{
+  text-align: center;
+  color: white;
+  background-color: rgb(0, 102, 255);
+  padding: 25px;
+  margin: 0%;
+}
+
+
+.App nav {
+  background-color: black;
+  padding: 15px;
+}
+
+a{
+  color: aliceblue;
+  text-decoration: none;
+}
+
+nav ul li{
+  padding: 15px;
+  text-align: center;
+  display: inline-block;
+}
+
+nav ul{
+  text-align: center;
+  background-color: black;
+  margin: 0%;
+}
+
+.list{
+  padding: 15px;
+  font-size: x-large;
+}
+
+.list:hover{
+    color: aqua;
+}
+
+.registro{
+  color: black;
+  text-align: center;
+  padding: 25px;
+  background-color: rgb(0, 102, 255);
+  margin-top: -5px;
+}
+
+.contenedorProducto{
+  border: 2px solid black;
+  background-color: rgb(0, 102, 255);
+  color: aliceblue;
+  display: inline-block;
+  width: 300px;
+  margin: 15px;
+  border-radius: 12px;
+  text-align: center;
+  
+}
+
+.nombreYprecio{
+  background-color: black;
+  color: aliceblue;
+  padding: 15px;
+}
+
+.contenedorProducto img{
+  padding: 25px;
+}
+
+#botonComprar{
+  font-size: large;
+    padding: 5px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+
+}
+
+button{
+  display: inline;
+  width: 100px;
+  height: 35px;
+  margin-top: 15px;
+  background-color: black;
+  color: white;
+}
+
+#botonComprar:hover{
+  border: 2px solid black;
+  background-color: aliceblue;
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+#foto {
+  text-align: center;
+  width: 100%; /* Establece el ancho al 100% */
+  height: auto; /* Altura automática para mantener la proporción */
+}
+
+.foco{
+ background-color: rgb(0, 132, 255);
+ width: 100%; /* Establece el ancho al 100% */
+  height: auto;
+}
+
+input{
+  width: 500px;
+  height: 30px;
+  border-radius: 5px;
+
 }
